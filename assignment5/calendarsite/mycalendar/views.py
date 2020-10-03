@@ -66,3 +66,9 @@ def createcalendar(request, user_id):
         context = {'user': User.objects.get(pk=user_id)}
         return render(request, 'mycalendar/createcalendar.html', context)
 
+def submitcreatecalendar(request, user_id):
+        e = Calendar(title=request.POST["title"], description=request.POST["description"], owner = User.objects.get(pk=user_id))
+        e.save()
+        user = User.objects.get(pk=user_id)
+        context = {'user': user, 'calendar_list': user.calendar_set.all()}
+        return render(request, 'mycalendar/userindex.html', context)

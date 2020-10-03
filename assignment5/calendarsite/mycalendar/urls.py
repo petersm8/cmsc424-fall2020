@@ -18,4 +18,7 @@ urlpatterns = [
         url(r'^user/(?P<user_id>[0-9]+)/createdevent/(?P<event_id>[0-9]+)/$', views.createdevent, name='createdevent'),
 
         url(r'^user/(?P<user_id>[0-9]+)/createcalendar$', views.createcalendar, name='createcalendar'),
+
+       url(r'^user/(?P<user_id>[0-9]+)/submitcreatecalendar/$', views.submitcreatecalendar, name='createcalendar'),
+
 ] 

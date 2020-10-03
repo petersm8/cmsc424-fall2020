@@ -6,8 +6,8 @@ import json
 
 ## See SQLTesting.py for examples of how to connect to the database and execute queries and transactions
 ##
-##conn = psycopg2.connect("dbname=elections user=vagrant")
-##cur = conn.cursor()
+conn = psycopg2.connect("dbname=elections user=vagrant")
+cur = conn.cursor()
 
 def processJSON(j):
     print(j)
