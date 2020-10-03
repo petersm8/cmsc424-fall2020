@@ -10,6 +10,13 @@ conn = psycopg2.connect("dbname=elections user=vagrant")
 cur = conn.cursor()
 
 def processJSON(j):
+    with open(j).read() as f:
+        json_vales = f.read()
+    conn.commit()
+    myquery = """INSERT INTO pres_county_returns(json_vales) VALUES(%s,%s,%s,%s)"""
+
+    cur.execute(myquery, (json_vales))
+    conn.commit()
     print(j)
 
 if len(sys.argv) < 2:
