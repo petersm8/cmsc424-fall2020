@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="db" uuid="c200b1cc-ef9c-4f76-bfb0-614afa7a5403">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:E:\Documents\UMD\Fall2020\424\cmsc424-fall2020\assignment4\calendarsite\db.sqlite3</jdbc-url>
+    </data-source>
+  </component>
+</project>
