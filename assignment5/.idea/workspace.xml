@@ -19,10 +19,20 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbe1ea05-ba61-4cc5-8e35-0b9c62acc795" name="Default Changelist" comment="">
+    <list default="true" id="bbe1ea05-ba61-4cc5-8e35-0b9c62acc795" name="Default Changelist" comment="stuff">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/action_provision" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/action_set_name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/box_meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/creator_uid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/id" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/index_uuid" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/private_key" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/synced_folders" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/vagrant_cwd" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/JSONProcessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/JSONProcessing.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/calendarsite/mycalendar/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/calendarsite/mycalendar/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ubuntu-bionic-18.04-cloudimg-console.log" beforeDir="false" afterPath="$PROJECT_DIR$/ubuntu-bionic-18.04-cloudimg-console.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,8 +68,18 @@
       <option name="presentableId" value="Default" />
       <updated>1601521743998</updated>
       <workItem from="1601521745211" duration="7019000" />
-      <workItem from="1601694083200" duration="9224000" />
+      <workItem from="1601694083200" duration="13677000" />
+      <workItem from="1601765246547" duration="138000" />
+      <workItem from="1601765397444" duration="3379000" />
     </task>
+    <task id="LOCAL-00001" summary="stuff">
+      <created>1601711616052</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601711616052</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -77,10 +97,18 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="stuff" />
+  </component>
   <component name="WindowStateProjectService">
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1601529620828">
       <screen x="0" y="0" width="1360" height="768" />
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/1360.-1.1920.1080/0.0.1360.768@0.0.1360.768" timestamp="1601529620828" />
+    <state x="272" y="117" key="Vcs.Push.Dialog.v2" timestamp="1601711621539">
+      <screen x="0" y="0" width="1360" height="768" />
+    </state>
+    <state x="272" y="117" key="Vcs.Push.Dialog.v2/1360.-1.1920.1080/0.0.1360.768@0.0.1360.768" timestamp="1601711621539" />
   </component>
 </project>

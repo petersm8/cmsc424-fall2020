@@ -8,6 +8,7 @@ from django.utils import timezone
 
 class User(models.Model):
     name = models.CharField(max_length=50)
+    calendars = models.ManyToManyField(Calendar, through='BelongsTo')
     def __str__(self):
         return self.name
 
@@ -51,6 +52,7 @@ class Company(models.Model):
     name = models.CharField(max_length=50)
     address = models.CharField(max_length=50)
     works_in = models.ForeignKey(User, on_delete=models.CASCADE)
+
     def __str__(self):
         return self.name
 
@@ -60,5 +62,6 @@ class Room(models.Model):
     name = models.CharField(max_length=50)
     capacity = models.IntegerField(max_length=10)
     scheduled_in = models.ForeignKey(Event, on_delete=models.CASCADE)
+
     def __str__(self):
         return self.number
